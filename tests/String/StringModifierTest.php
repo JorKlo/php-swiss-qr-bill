@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\String;
+namespace Jorklo\Tests\SwissQrBill\String;
 
 use PHPUnit\Framework\TestCase;
-use Sprain\SwissQrBill\String\StringModifier;
+use Jorklo\SwissQrBill\String\StringModifier;
 
 final class StringModifierTest extends TestCase
 {

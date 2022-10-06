@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\String;
+namespace Jorklo\SwissQrBill\String;
 
 /**
  * @internal

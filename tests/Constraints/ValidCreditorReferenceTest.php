@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\Constraints;
+namespace Jorklo\Tests\SwissQrBill\Constraints;
 
-use Sprain\SwissQrBill\Constraint\ValidCreditorReference;
-use Sprain\SwissQrBill\Constraint\ValidCreditorReferenceValidator;
+use Jorklo\SwissQrBill\Constraint\ValidCreditorReference;
+use Jorklo\SwissQrBill\Constraint\ValidCreditorReferenceValidator;
 use Symfony\Component\Validator\Test\ConstraintValidatorTestCase;
 
 final class ValidCreditorReferenceTest extends ConstraintValidatorTestCase

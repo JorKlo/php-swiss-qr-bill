@@ -1,23 +1,23 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill;
+namespace Jorklo\SwissQrBill;
 
-use Sprain\SwissQrBill\Constraint\ValidCreditorInformationPaymentReferenceCombination;
-use Sprain\SwissQrBill\DataGroup\AddressInterface;
-use Sprain\SwissQrBill\DataGroup\Element\AdditionalInformation;
-use Sprain\SwissQrBill\DataGroup\Element\AlternativeScheme;
-use Sprain\SwissQrBill\DataGroup\Element\CreditorInformation;
-use Sprain\SwissQrBill\DataGroup\Element\Header;
-use Sprain\SwissQrBill\DataGroup\Element\PaymentAmountInformation;
-use Sprain\SwissQrBill\DataGroup\Element\PaymentReference;
-use Sprain\SwissQrBill\DataGroup\EmptyElement\EmptyAdditionalInformation;
-use Sprain\SwissQrBill\DataGroup\EmptyElement\EmptyAddress;
-use Sprain\SwissQrBill\DataGroup\QrCodeableInterface;
-use Sprain\SwissQrBill\Exception\InvalidQrBillDataException;
-use Sprain\SwissQrBill\QrCode\QrCode;
-use Sprain\SwissQrBill\String\StringModifier;
-use Sprain\SwissQrBill\Validator\SelfValidatableInterface;
-use Sprain\SwissQrBill\Validator\SelfValidatableTrait;
+use Jorklo\SwissQrBill\Constraint\ValidCreditorInformationPaymentReferenceCombination;
+use Jorklo\SwissQrBill\DataGroup\AddressInterface;
+use Jorklo\SwissQrBill\DataGroup\Element\AdditionalInformation;
+use Jorklo\SwissQrBill\DataGroup\Element\AlternativeScheme;
+use Jorklo\SwissQrBill\DataGroup\Element\CreditorInformation;
+use Jorklo\SwissQrBill\DataGroup\Element\Header;
+use Jorklo\SwissQrBill\DataGroup\Element\PaymentAmountInformation;
+use Jorklo\SwissQrBill\DataGroup\Element\PaymentReference;
+use Jorklo\SwissQrBill\DataGroup\EmptyElement\EmptyAdditionalInformation;
+use Jorklo\SwissQrBill\DataGroup\EmptyElement\EmptyAddress;
+use Jorklo\SwissQrBill\DataGroup\QrCodeableInterface;
+use Jorklo\SwissQrBill\Exception\InvalidQrBillDataException;
+use Jorklo\SwissQrBill\QrCode\QrCode;
+use Jorklo\SwissQrBill\String\StringModifier;
+use Jorklo\SwissQrBill\Validator\SelfValidatableInterface;
+use Jorklo\SwissQrBill\Validator\SelfValidatableTrait;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\Mapping\ClassMetadata;
 

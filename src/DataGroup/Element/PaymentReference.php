@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\DataGroup\Element;
+namespace Jorklo\SwissQrBill\DataGroup\Element;
 
-use Sprain\SwissQrBill\Constraint\ValidCreditorReference;
-use Sprain\SwissQrBill\DataGroup\QrCodeableInterface;
-use Sprain\SwissQrBill\String\StringModifier;
-use Sprain\SwissQrBill\Validator\SelfValidatableInterface;
-use Sprain\SwissQrBill\Validator\SelfValidatableTrait;
+use Jorklo\SwissQrBill\Constraint\ValidCreditorReference;
+use Jorklo\SwissQrBill\DataGroup\QrCodeableInterface;
+use Jorklo\SwissQrBill\String\StringModifier;
+use Jorklo\SwissQrBill\Validator\SelfValidatableInterface;
+use Jorklo\SwissQrBill\Validator\SelfValidatableTrait;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\Constraints\GroupSequence;
 use Symfony\Component\Validator\GroupSequenceProviderInterface;

@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\QrCode;
+namespace Jorklo\Tests\SwissQrBill\QrCode;
 
 use PHPUnit\Framework\TestCase;
-use Sprain\SwissQrBill\QrCode\Exception\UnsupportedFileExtensionException;
-use Sprain\SwissQrBill\QrCode\QrCode;
+use Jorklo\SwissQrBill\QrCode\Exception\UnsupportedFileExtensionException;
+use Jorklo\SwissQrBill\QrCode\QrCode;
 
 final class QrCodeTest extends TestCase
 {

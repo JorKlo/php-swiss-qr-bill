@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\PaymentPart\Output\HtmlOutput;
+namespace Jorklo\Tests\SwissQrBill\PaymentPart\Output\HtmlOutput;
 
 use PHPUnit\Framework\TestCase;
-use Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\HtmlOutput;
-use Sprain\SwissQrBill\QrBill;
-use Sprain\SwissQrBill\QrCode\QrCode;
-use Sprain\Tests\SwissQrBill\TestQrBillCreatorTrait;
+use Jorklo\SwissQrBill\PaymentPart\Output\HtmlOutput\HtmlOutput;
+use Jorklo\SwissQrBill\QrBill;
+use Jorklo\SwissQrBill\QrCode\QrCode;
+use Jorklo\Tests\SwissQrBill\TestQrBillCreatorTrait;
 
 final class HtmlOutputTest extends TestCase
 {

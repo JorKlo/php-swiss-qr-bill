@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\Reference;
+namespace Jorklo\Tests\SwissQrBill\Reference;
 
-use Sprain\SwissQrBill\Reference\RfCreditorReferenceGenerator;
+use Jorklo\SwissQrBill\Reference\RfCreditorReferenceGenerator;
 use PHPUnit\Framework\TestCase;
-use Sprain\SwissQrBill\String\StringModifier;
+use Jorklo\SwissQrBill\String\StringModifier;
 
 final class RfCreditorReferenceGeneratorTest extends TestCase
 {

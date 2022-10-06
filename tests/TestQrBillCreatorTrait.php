@@ -1,17 +1,17 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill;
+namespace Jorklo\Tests\SwissQrBill;
 
-use Sprain\SwissQrBill\DataGroup\Element\AdditionalInformation;
-use Sprain\SwissQrBill\DataGroup\Element\CombinedAddress;
-use Sprain\SwissQrBill\DataGroup\Element\StructuredAddress;
-use Sprain\SwissQrBill\DataGroup\Element\AlternativeScheme;
-use Sprain\SwissQrBill\DataGroup\Element\CreditorInformation;
-use Sprain\SwissQrBill\DataGroup\Element\Header;
-use Sprain\SwissQrBill\DataGroup\Element\PaymentAmountInformation;
-use Sprain\SwissQrBill\DataGroup\Element\PaymentReference;
-use Sprain\SwissQrBill\PaymentPart\Translation\Translation;
-use Sprain\SwissQrBill\QrBill;
+use Jorklo\SwissQrBill\DataGroup\Element\AdditionalInformation;
+use Jorklo\SwissQrBill\DataGroup\Element\CombinedAddress;
+use Jorklo\SwissQrBill\DataGroup\Element\StructuredAddress;
+use Jorklo\SwissQrBill\DataGroup\Element\AlternativeScheme;
+use Jorklo\SwissQrBill\DataGroup\Element\CreditorInformation;
+use Jorklo\SwissQrBill\DataGroup\Element\Header;
+use Jorklo\SwissQrBill\DataGroup\Element\PaymentAmountInformation;
+use Jorklo\SwissQrBill\DataGroup\Element\PaymentReference;
+use Jorklo\SwissQrBill\PaymentPart\Translation\Translation;
+use Jorklo\SwissQrBill\QrBill;
 
 trait TestQrBillCreatorTrait
 {

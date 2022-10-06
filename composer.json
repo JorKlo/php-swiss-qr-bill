@@ -35,8 +35,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Sprain\\SwissQrBill\\": "src",
-            "Sprain\\Tests\\SwissQrBill\\": "tests"
+            "Jorklo\\SwissQrBill\\": "src",
+            "Jorklo\\Tests\\SwissQrBill\\": "tests"
         }
     }
 }

@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\Reference;
+namespace Jorklo\Tests\SwissQrBill\Reference;
 
 use PHPUnit\Framework\TestCase;
-use Sprain\SwissQrBill\Reference\QrPaymentReferenceGenerator;
-use Sprain\SwissQrBill\Validator\Exception\InvalidQrPaymentReferenceException;
+use Jorklo\SwissQrBill\Reference\QrPaymentReferenceGenerator;
+use Jorklo\SwissQrBill\Validator\Exception\InvalidQrPaymentReferenceException;
 use Symfony\Component\Validator\Validation;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 

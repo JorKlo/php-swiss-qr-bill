@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\PaymentPart\Output;
+namespace Jorklo\SwissQrBill\PaymentPart\Output;
 
-use Sprain\SwissQrBill\QrBill;
+use Jorklo\SwissQrBill\QrBill;
 
 interface OutputInterface
 {

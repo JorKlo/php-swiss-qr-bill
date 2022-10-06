@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\QrCode\Exception;
+namespace Jorklo\SwissQrBill\QrCode\Exception;
 
 class UnsupportedFileExtensionException extends \Exception
 {

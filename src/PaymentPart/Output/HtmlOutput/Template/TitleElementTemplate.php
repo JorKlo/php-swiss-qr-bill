@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\Template;
+namespace Jorklo\SwissQrBill\PaymentPart\Output\HtmlOutput\Template;
 
 class TitleElementTemplate
 {

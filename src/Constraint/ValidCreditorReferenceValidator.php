@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\Constraint;
+namespace Jorklo\SwissQrBill\Constraint;
 
 use kmukku\phpIso11649\phpIso11649;
 use Symfony\Component\Validator\Constraint;

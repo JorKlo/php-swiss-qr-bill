@@ -1,9 +1,9 @@
 <?php
 
-namespace Sprain\SwissQrBill\DataGroup\Element\Abstracts;
+namespace Jorklo\SwissQrBill\DataGroup\Element\Abstracts;
 
-use Sprain\SwissQrBill\String\StringAnalyzer;
-use Sprain\SwissQrBill\String\StringModifier;
+use Jorklo\SwissQrBill\String\StringAnalyzer;
+use Jorklo\SwissQrBill\String\StringModifier;
 
 /**
  * @internal

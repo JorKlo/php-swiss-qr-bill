@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\QrCode;
+namespace Jorklo\SwissQrBill\QrCode;
 
 use Endroid\QrCode\Encoding\Encoding;
 use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelMedium;
@@ -11,7 +11,7 @@ use Endroid\QrCode\Writer\PngWriter;
 use Endroid\QrCode\Writer\Result\ResultInterface;
 use Endroid\QrCode\Writer\SvgWriter;
 use Endroid\QrCode\Writer\WriterInterface;
-use Sprain\SwissQrBill\QrCode\Exception\UnsupportedFileExtensionException;
+use Jorklo\SwissQrBill\QrCode\Exception\UnsupportedFileExtensionException;
 
 final class QrCode
 {

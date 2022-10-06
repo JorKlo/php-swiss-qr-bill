@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\PaymentPart\Output\FpdfOutput;
+namespace Jorklo\Tests\SwissQrBill\PaymentPart\Output\FpdfOutput;
 
 use Fpdf\Fpdf;
 use PHPUnit\Framework\TestCase;
-use Sprain\SwissQrBill\Exception\InvalidFpdfImageFormat;
-use Sprain\SwissQrBill\PaymentPart\Output\FpdfOutput\FpdfOutput;
-use Sprain\SwissQrBill\QrBill;
-use Sprain\SwissQrBill\QrCode\QrCode;
-use Sprain\Tests\SwissQrBill\TestQrBillCreatorTrait;
+use Jorklo\SwissQrBill\Exception\InvalidFpdfImageFormat;
+use Jorklo\SwissQrBill\PaymentPart\Output\FpdfOutput\FpdfOutput;
+use Jorklo\SwissQrBill\QrBill;
+use Jorklo\SwissQrBill\QrCode\QrCode;
+use Jorklo\Tests\SwissQrBill\TestQrBillCreatorTrait;
 
 final class FpdfOutputTest extends TestCase
 {

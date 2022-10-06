@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\Constraints;
+namespace Jorklo\Tests\SwissQrBill\Constraints;
 
 use DG\BypassFinals;
-use Sprain\SwissQrBill\Constraint\ValidCreditorInformationPaymentReferenceCombination;
-use Sprain\SwissQrBill\Constraint\ValidCreditorInformationPaymentReferenceCombinationValidator;
-use Sprain\SwissQrBill\DataGroup\Element\CreditorInformation;
-use Sprain\SwissQrBill\DataGroup\Element\PaymentReference;
-use Sprain\SwissQrBill\QrBill;
+use Jorklo\SwissQrBill\Constraint\ValidCreditorInformationPaymentReferenceCombination;
+use Jorklo\SwissQrBill\Constraint\ValidCreditorInformationPaymentReferenceCombinationValidator;
+use Jorklo\SwissQrBill\DataGroup\Element\CreditorInformation;
+use Jorklo\SwissQrBill\DataGroup\Element\PaymentReference;
+use Jorklo\SwissQrBill\QrBill;
 use Symfony\Component\Validator\Test\ConstraintValidatorTestCase;
 
 final class ValidCreditorInformationPaymentReferenceCombinationTest extends ConstraintValidatorTestCase

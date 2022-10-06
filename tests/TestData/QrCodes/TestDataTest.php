@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\TestData\QrCodes;
+namespace Jorklo\Tests\SwissQrBill\TestData\QrCodes;
 
 use PHPUnit\Framework\TestCase;
 

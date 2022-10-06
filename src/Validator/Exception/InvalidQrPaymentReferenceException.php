@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\Validator\Exception;
+namespace Jorklo\SwissQrBill\Validator\Exception;
 
 class InvalidQrPaymentReferenceException extends \Exception
 {

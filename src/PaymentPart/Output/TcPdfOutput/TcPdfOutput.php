@@ -1,17 +1,17 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\PaymentPart\Output\TcPdfOutput;
+namespace Jorklo\SwissQrBill\PaymentPart\Output\TcPdfOutput;
 
 use setasign\Fpdi\Tcpdf\Fpdi;
-use Sprain\SwissQrBill\PaymentPart\Output\AbstractOutput;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\OutputElementInterface;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\Placeholder;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\Text;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\Title;
-use Sprain\SwissQrBill\PaymentPart\Output\OutputInterface;
-use Sprain\SwissQrBill\QrCode\QrCode;
-use Sprain\SwissQrBill\PaymentPart\Translation\Translation;
-use Sprain\SwissQrBill\QrBill;
+use Jorklo\SwissQrBill\PaymentPart\Output\AbstractOutput;
+use Jorklo\SwissQrBill\PaymentPart\Output\Element\OutputElementInterface;
+use Jorklo\SwissQrBill\PaymentPart\Output\Element\Placeholder;
+use Jorklo\SwissQrBill\PaymentPart\Output\Element\Text;
+use Jorklo\SwissQrBill\PaymentPart\Output\Element\Title;
+use Jorklo\SwissQrBill\PaymentPart\Output\OutputInterface;
+use Jorklo\SwissQrBill\QrCode\QrCode;
+use Jorklo\SwissQrBill\PaymentPart\Translation\Translation;
+use Jorklo\SwissQrBill\QrBill;
 use TCPDF;
 
 final class TcPdfOutput extends AbstractOutput implements OutputInterface

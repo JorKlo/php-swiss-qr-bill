@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\DataGroup\EmptyElement;
+namespace Jorklo\SwissQrBill\DataGroup\EmptyElement;
 
-use Sprain\SwissQrBill\DataGroup\QrCodeableInterface;
+use Jorklo\SwissQrBill\DataGroup\QrCodeableInterface;
 
 /**
  * @internal

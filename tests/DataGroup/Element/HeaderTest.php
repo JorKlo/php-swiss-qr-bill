@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\DataGroup\Element;
+namespace Jorklo\Tests\SwissQrBill\DataGroup\Element;
 
 use PHPUnit\Framework\TestCase;
-use Sprain\SwissQrBill\DataGroup\Element\Header;
+use Jorklo\SwissQrBill\DataGroup\Element\Header;
 
 final class HeaderTest extends TestCase
 {

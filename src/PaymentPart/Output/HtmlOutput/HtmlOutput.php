@@ -1,18 +1,18 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput;
+namespace Jorklo\SwissQrBill\PaymentPart\Output\HtmlOutput;
 
-use Sprain\SwissQrBill\PaymentPart\Output\AbstractOutput;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\Placeholder;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\Text;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\Title;
-use Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PlaceholderElementTemplate;
-use Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PrintableStylesTemplate;
-use Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\TextElementTemplate;
-use Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PaymentPartTemplate;
-use Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\TitleElementTemplate;
-use Sprain\SwissQrBill\PaymentPart\Output\OutputInterface;
-use Sprain\SwissQrBill\PaymentPart\Translation\Translation;
+use Jorklo\SwissQrBill\PaymentPart\Output\AbstractOutput;
+use Jorklo\SwissQrBill\PaymentPart\Output\Element\Placeholder;
+use Jorklo\SwissQrBill\PaymentPart\Output\Element\Text;
+use Jorklo\SwissQrBill\PaymentPart\Output\Element\Title;
+use Jorklo\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PlaceholderElementTemplate;
+use Jorklo\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PrintableStylesTemplate;
+use Jorklo\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\TextElementTemplate;
+use Jorklo\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PaymentPartTemplate;
+use Jorklo\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\TitleElementTemplate;
+use Jorklo\SwissQrBill\PaymentPart\Output\OutputInterface;
+use Jorklo\SwissQrBill\PaymentPart\Translation\Translation;
 
 final class HtmlOutput extends AbstractOutput implements OutputInterface
 {

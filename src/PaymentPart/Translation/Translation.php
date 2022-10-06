@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\PaymentPart\Translation;
+namespace Jorklo\SwissQrBill\PaymentPart\Translation;
 
 final class Translation
 {

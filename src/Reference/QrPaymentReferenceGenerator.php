@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\Reference;
+namespace Jorklo\SwissQrBill\Reference;
 
-use Sprain\SwissQrBill\String\StringModifier;
-use Sprain\SwissQrBill\Validator\Exception\InvalidQrPaymentReferenceException;
-use Sprain\SwissQrBill\Validator\SelfValidatableInterface;
-use Sprain\SwissQrBill\Validator\SelfValidatableTrait;
+use Jorklo\SwissQrBill\String\StringModifier;
+use Jorklo\SwissQrBill\Validator\Exception\InvalidQrPaymentReferenceException;
+use Jorklo\SwissQrBill\Validator\SelfValidatableInterface;
+use Jorklo\SwissQrBill\Validator\SelfValidatableTrait;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\Context\ExecutionContextInterface;
 use Symfony\Component\Validator\Mapping\ClassMetadata;

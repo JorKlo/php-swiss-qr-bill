@@ -1,20 +1,20 @@
 <?php declare(strict_types=1);
 
 
-namespace Sprain\SwissQrBill\PaymentPart\Output\FpdfOutput;
+namespace Jorklo\SwissQrBill\PaymentPart\Output\FpdfOutput;
 
 use Fpdf\Fpdf;
 use setasign\Fpdi\Fpdi;
-use Sprain\SwissQrBill\Exception\InvalidFpdfImageFormat;
-use Sprain\SwissQrBill\PaymentPart\Output\AbstractOutput;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\OutputElementInterface;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\Placeholder;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\Text;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\Title;
-use Sprain\SwissQrBill\PaymentPart\Output\OutputInterface;
-use Sprain\SwissQrBill\PaymentPart\Translation\Translation;
-use Sprain\SwissQrBill\QrBill;
-use Sprain\SwissQrBill\QrCode\QrCode;
+use Jorklo\SwissQrBill\Exception\InvalidFpdfImageFormat;
+use Jorklo\SwissQrBill\PaymentPart\Output\AbstractOutput;
+use Jorklo\SwissQrBill\PaymentPart\Output\Element\OutputElementInterface;
+use Jorklo\SwissQrBill\PaymentPart\Output\Element\Placeholder;
+use Jorklo\SwissQrBill\PaymentPart\Output\Element\Text;
+use Jorklo\SwissQrBill\PaymentPart\Output\Element\Title;
+use Jorklo\SwissQrBill\PaymentPart\Output\OutputInterface;
+use Jorklo\SwissQrBill\PaymentPart\Translation\Translation;
+use Jorklo\SwissQrBill\QrBill;
+use Jorklo\SwissQrBill\QrCode\QrCode;
 
 final class FpdfOutput extends AbstractOutput implements OutputInterface
 {
