@@ -10,7 +10,7 @@ A PHP library to create Swiss QR Bill payment parts (_QR-Rechnung_) which fully 
 ## Getting started
 
 ```
-composer require sprain/swiss-qr-bill
+composer require jorklo/swiss-qr-bill
 ```
 
 Then have a look at [example/example.php](example/example.php).
