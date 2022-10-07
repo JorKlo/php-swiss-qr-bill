@@ -14,6 +14,12 @@ use Jorklo\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\TitleElementTempla
 use Jorklo\SwissQrBill\PaymentPart\Output\OutputInterface;
 use Jorklo\SwissQrBill\PaymentPart\Translation\Translation;
 
+// CUSTOM PatrickK
+use Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PaymentPartTemplateOnline;
+use Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PaymentPartTemplateOnlineStyle2;
+// CUSTOM PatrickK
+
+
 final class HtmlOutput extends AbstractOutput implements OutputInterface
 {
     public function getPaymentPart(): string
@@ -33,6 +39,61 @@ final class HtmlOutput extends AbstractOutput implements OutputInterface
 
         return $paymentPart;
     }
+
+    // CUSTOM PatrickKpublic 
+    function getPaymentPartOnlyCode(): string
+    {
+        $paymentPart = PaymentPartTemplateOnlyCode::TEMPLATE;
+
+        $paymentPart = $this->addSwissQrCodeImage($paymentPart);
+        $paymentPart = $this->addInformationContent($paymentPart);
+        $paymentPart = $this->addInformationContentReceipt($paymentPart);
+        $paymentPart = $this->addCurrencyContent($paymentPart);
+        $paymentPart = $this->addAmountContent($paymentPart);
+        $paymentPart = $this->addAmountContentReceipt($paymentPart);
+        $paymentPart = $this->addFurtherInformationContent($paymentPart);
+        $paymentPart = $this->hideSeparatorContentIfPrintable($paymentPart);
+
+        $paymentPart = $this->translateContents($paymentPart, $this->getLanguage());
+
+        return $paymentPart;
+    }
+
+    public function getPaymentPartOnline(): string
+    {
+        if (isset($_GET['css'])){
+          if ($_GET['css'] == 2){
+            $paymentPart = PaymentPartTemplateOnlineStyle2::TEMPLATE;
+            $paymentPart = $this->addSwissQrCodeImage($paymentPart);
+            $paymentPart = $this->addInformationContent($paymentPart);
+            $paymentPart = $this->addInformationContentReceipt($paymentPart);
+            $paymentPart = $this->addCurrencyContent($paymentPart);
+            $paymentPart = $this->addAmountContent($paymentPart);
+            $paymentPart = $this->addAmountContentReceipt($paymentPart);
+            $paymentPart = $this->addFurtherInformationContent($paymentPart);
+            $paymentPart = $this->hideSeparatorContentIfPrintable($paymentPart);
+
+            $paymentPart = $this->translateContents($paymentPart, $this->getLanguage());
+
+            return $paymentPart;
+          }
+        } else {
+          $paymentPart = PaymentPartTemplateOnline::TEMPLATE;
+          $paymentPart = $this->addSwissQrCodeImage($paymentPart);
+          $paymentPart = $this->addInformationContent($paymentPart);
+          $paymentPart = $this->addInformationContentReceipt($paymentPart);
+          $paymentPart = $this->addCurrencyContent($paymentPart);
+          $paymentPart = $this->addAmountContent($paymentPart);
+          $paymentPart = $this->addAmountContentReceipt($paymentPart);
+          $paymentPart = $this->addFurtherInformationContent($paymentPart);
+          $paymentPart = $this->hideSeparatorContentIfPrintable($paymentPart);
+
+          $paymentPart = $this->translateContents($paymentPart, $this->getLanguage());
+
+          return $paymentPart;
+        }
+    }
+    // CUSTOM PatrickK
 
     private function addSwissQrCodeImage(string $paymentPart): string
     {
