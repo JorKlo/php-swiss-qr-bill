@@ -17,6 +17,7 @@ use Jorklo\SwissQrBill\PaymentPart\Translation\Translation;
 // CUSTOM PatrickK
 use Jorklo\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PaymentPartTemplateOnline;
 use Jorklo\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PaymentPartTemplateOnlineStyle2;
+use Jorklo\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PaymentPartTemplateOnlyCode;
 // CUSTOM PatrickK
 
 
@@ -40,8 +41,8 @@ final class HtmlOutput extends AbstractOutput implements OutputInterface
         return $paymentPart;
     }
 
-    // CUSTOM PatrickKpublic 
-    function getPaymentPartOnlyCode(): string
+    // CUSTOM PatrickK
+    public function getPaymentPartOnlyCode(): string
     {
         $paymentPart = PaymentPartTemplateOnlyCode::TEMPLATE;
 
