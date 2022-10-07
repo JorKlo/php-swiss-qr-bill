@@ -15,8 +15,8 @@ use Jorklo\SwissQrBill\PaymentPart\Output\OutputInterface;
 use Jorklo\SwissQrBill\PaymentPart\Translation\Translation;
 
 // CUSTOM PatrickK
-use Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PaymentPartTemplateOnline;
-use Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PaymentPartTemplateOnlineStyle2;
+use Jorklo\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PaymentPartTemplateOnline;
+use Jorklo\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PaymentPartTemplateOnlineStyle2;
 // CUSTOM PatrickK
 
 
